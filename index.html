@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Amphibians</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Learn About Wacky Amphibians!</h1>
+      <div class="row">
+        <div class="col-sm-4">
+          <h2>Axolotl</h2>
+          <img src="img/axolotl.jpg" class="img-responsive" alt="image of an axolotl">
+        </div>
+        <div class="col-sm-4">
+          <h2>Chinese Giant Salamander</h2>
+          <img src="img/salamander.jpg" class="img-responsive" alt="image of chinese giant salamander">
+        </div>
+        <div class="col-sm-4">
+          <h2>Black Rain Frog</h2>
+          <img src="img/frog.jpg" class="img-responsive" alt="image of a black rain frog" />
+        </div>
+      </div>
+      <form>
+      <h3>Which one would you like to learn about?</h3>
+      <select class="form-control" id="amphibian">
+        <option value="1">Axolotl</option>
+        <option value="2">Chinese Giant Salamander</option>
+        <option value="3">Black Rain Frog</option>
+      </select>
+      <button type="submit" class="btn btn-success">Choose!</button>
+      </form>
+    </div>
+  </body>
+</html>
